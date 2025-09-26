@@ -1,0 +1,15 @@
+#Лаб3-TasksA-Opt4-Mirskova
+
+#Задание1
+a = int(input("Введите числовое значение: "))
+if a>99 and a<1000:
+    print("Трёхзначное число")
+else:
+    print("Не трёхзначное число")
+
+#Задание2
+a = int(input("Введите время в секундах: "))
+b = int(input("Введите время в минутах "))
+b_sec = b*60
+max_time = a if a > b_sec else b_sec
+print(f"Наибольшее время: {max_time} в секундах")
